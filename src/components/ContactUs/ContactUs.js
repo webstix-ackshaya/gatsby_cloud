@@ -48,6 +48,7 @@ export default function ContactUs() {
             <div class="flex items-start rounded-xl bg-white p-4 shadow-lg  lg:w-[70%]">
               <div class="flex h-10 w-10 items-center justify-center rounded-full bg-[#a31e22]">
                 <span className="text-[22px] text-[white]">
+                  <HiOutlineOfficeBuilding />
                 </span>
               </div>
 
