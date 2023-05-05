@@ -7,8 +7,12 @@ import { useContactQuery } from "../../hooks/useContactQuery"
 export default function ContactUs() {
   const data = useContactQuery()
   const title = data.wpPage.title
-  const Address = data.wpPage.blocks[0].originalContent
-  const Mail = data.wpPage.blocks[2].originalContent
+  const Address1 = data.wpPage.blocks[2].originalContent
+  const heading1 = data.wpPage.blocks[0].originalContent
+  const Address2 = data.wpPage.blocks[8].originalContent
+  const heading2 = data.wpPage.blocks[6].originalContent
+  const Mail = data.wpPage.blocks[4].originalContent
+
   //const map = data.wpPage.blocks[4].originalContent
 
   return (
@@ -27,12 +31,45 @@ export default function ContactUs() {
               </div>
 
               <div class="ml-4">
+              <p
+                  class=" mb-2 flex items-start pl-1 text-[17px] text-black"
+                  dangerouslySetInnerHTML={{ __html: heading1 }}
+                ></p>
                 <p
                   class=" mb-2 flex items-start pl-1 text-[17px] text-black"
-                  dangerouslySetInnerHTML={{ __html: Address }}
+                  dangerouslySetInnerHTML={{ __html: Address1 }}
                 ></p>
               </div>
             </div>
+
+<br/>
+
+
+            <div class="flex items-start rounded-xl bg-white p-4 shadow-lg  lg:w-[70%]">
+              <div class="flex h-10 w-10 items-center justify-center rounded-full bg-[#a31e22]">
+                <span className="text-[22px] text-[white]">
+                  <HiOutlineOfficeBuilding />
+                </span>
+              </div>
+
+              <div class="ml-4">
+              <p
+                  class=" mb-2 flex items-start pl-1 text-[17px] text-black"
+                  dangerouslySetInnerHTML={{ __html: heading2 }}
+                ></p>
+                <p
+                  class=" mb-2 flex items-start pl-1 text-[17px] text-black"
+                  dangerouslySetInnerHTML={{ __html: Address2 }}
+                ></p>
+              </div>
+            </div>
+
+
+
+
+
+
+
             <div class="flex items-center rounded-xl bg-white p-4 shadow-lg  lg:w-[70%] mt-4">
               <div class="flex h-10 w-10 items-center justify-center rounded-full bg-[#a31e22]">
                 <span className="text-[24px] text-[white]">
