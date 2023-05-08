@@ -10,6 +10,31 @@
   background-color: #fff;
 }
 
+
+.header .fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px;
+}
+html {
+  --top-spacing: 100px;
+  scroll-padding-top: var(--top-spacing);
+}
+
+body {
+  margin: var(--top-spacing) auto;
+  
+ 
+  padding: 0 20px;
+  font: 18px/1.4 system-ui;
+}
+
+
+
+
+
 .header .navbar {
   display: flex;
   justify-content: space-between;
