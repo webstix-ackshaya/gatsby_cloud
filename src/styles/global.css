@@ -9,6 +9,8 @@ body{
   padding:0!important;
   margin:0!important;
   box-sizing: border-box;
+  font-family: "Lato", sans-serif !important;
+
 }
 .react-read-more-read-less {
   font-weight: 700;
