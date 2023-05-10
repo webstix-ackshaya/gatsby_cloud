@@ -32,7 +32,7 @@ export default function ContactUs() {
 
               <div class="ml-4">
               <p
-                  class=" mb-2 flex items-start pl-1 text-[17px] text-black"
+                  class=" mb-2 flex items-start pl-1 text-[20px] text-black"
                   dangerouslySetInnerHTML={{ __html: heading1 }}
                 ></p>
                 <p
@@ -53,7 +53,7 @@ export default function ContactUs() {
 
               <div class="ml-4">
               <p
-                  class=" mb-2 flex items-start pl-1 text-[17px] text-black"
+                  class=" mb-2 flex items-start pl-1 text-[20px] text-black"
                   dangerouslySetInnerHTML={{ __html: heading2 }}
                 ></p>
                 <p
