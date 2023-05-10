@@ -5,7 +5,11 @@
 html {
   font-family: "Lato", sans-serif;
 }
-
+body{
+  padding:0!important;
+  margin:0!important;
+  box-sizing: border-box;
+}
 .react-read-more-read-less {
   font-weight: 700;
   color: #a51720;
@@ -215,12 +219,23 @@ iframe {
   }
 }
 
+@media screen and (max-width: 1500px) {
+  .clsteamContent{
+    max-width: 32%!important;
+  }
+}
 @media screen and (max-width: 1330px) {
   .header .navbar {
     padding: 0px 20px;
   }
 }
 @media screen and (max-width: 1024px) {
+  .clsherobtn{
+    justify-content: center;
+  }
+  .clsHomeBanner{
+    margin-top: 120px;
+  }
   .clsteamContainer {
     padding: 0px 20px;
   }
@@ -300,6 +315,9 @@ iframe {
   }
 }
 @media screen and (max-width: 768px) {
+  .clsHomeBanner{
+       margin-top: 110px;
+  }
   .clsherobtn {
     justify-content: center;
   }
@@ -387,13 +405,16 @@ iframe {
     padding-bottom: 10px;
   }
   .clsHomeBanner {
-    margin-top: 100px;
+    /*margin-top: 100px; */
     padding-right: 5px;
     padding-left: 5px;
   }
 }
 
 @media screen and (max-width: 425px) {
+  .clsHomeBanner{
+    margin-top: 60px;
+  }
   .clsHomeBannertitle {
     font-size: 30px;
     padding-bottom: 10px;
@@ -436,7 +457,10 @@ iframe {
   }
   .clsLinkedIn {
     font-size: 20px;
-  }
+}
+.clsHomeBanner{
+margin-top: 100px;
+}
 }
 
 .sidekick {
@@ -482,7 +506,7 @@ iframe {
   font-weight: 600;
 }
 .clsteamContent {
-  padding: 0px 15px;
+  padding: 0px 5px;
 }
 .swiper,
 .swiper-container {
@@ -537,7 +561,7 @@ blockquote span {
 } */
 
 .clsContactSinglePage {
-  margin-top: 150px;
+  margin-top: 120px;
 }
 .clsTeamImagediv {
   position: relative;

@@ -27,8 +27,8 @@
 }
 
 .galleryWrap .single img:hover {
-  transform: scale(1.06);
-  transition: transform 330ms ease-in-out;
+  transform: scale(1.01);
+  transition: transform 30ms ease-in-out;
 }
 
 .sliderWrap {
@@ -98,8 +98,9 @@
   user-select: none;
 }
 .clsHomeGallery .single img {
-  height: 150px !important;
-  width: 92%;
+  height: 155px !important;
+    width: 246px;
+    padding: 6px;
 }
 .clsHomeGallery {
   gap: 0px;

@@ -13,7 +13,7 @@ export const Team = () => {
 
   return (
     <div class="max-w-[85rem] mx-auto  lg:px-6 flex lg:mb-[100px] md:mb-[100px]  clsteamContainer">
-      <div class="mb-10 md:mb-16  max-w-[32%] pr-[75px] fixed mt-[2rem] clsteamContent z-10">
+      <div class="mb-10 md:mb-16  max-w-[32%] pr-[75px] fixed mt-[6rem] clsteamContent z-10">
         <h2 class="text-3xl font-bold mb-6 text-[#000] text-[40px] capitalize pt-4">
           {title}
         </h2>
@@ -25,8 +25,9 @@ export const Team = () => {
 
         <div className="flex flex-wrap ">
           <div className="">
-            {cat.map(c => (
+                      {cat.map(c => (
               <>
+              
                 <Link to={c.uri}>
                   <button
                     type="button"
@@ -58,7 +59,7 @@ export const Team = () => {
         </div>
       </div>
 
-      <div class="grid gap-4 md:grid-cols-3 w-[62%] ml-auto h-fit lg:mt-[2rem] md:mt-[4rem] md: clsteamImage">
+      <div class="grid gap-4 md:grid-cols-3 w-[62%] ml-auto h-fit lg:mt-[7rem] md:mt-[4rem] md: clsteamImage">
         {team.map(t => (
           <div class="p-4 shadow max-h-[460px]">
             <div class="h-[250px] mb-2 overflow-hidden rounded-lg bg-[#f5f5f5] shadow-lg md:h-[250px] clsTeamImagediv">

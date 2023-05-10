@@ -12,6 +12,22 @@ const Category = ({ catId, categories }) => {
   return (
     <>
       <div className="flex flex-wrap">
+      <Link to="/our-team">
+                    <button
+                    type="button"
+                    class="rounded-lg text-[12px]  text-center inline-flex items-center bg-[#fff]  hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-[7px] px-[14px] border border-black mr-3 mb-6"
+                activeClassName="cat-active"
+                  >
+                    All 
+                    <div className="flex items-center">
+                  <span className="pl-2">
+                    <FaArrowRight />
+                  </span>
+                </div>
+
+                  </button>
+                  </Link>
+
         {sortedCategories.map(cat => {
           if (cat.node.count !== 0) {
             return cat.node.slug !== "uncategorized" ? (

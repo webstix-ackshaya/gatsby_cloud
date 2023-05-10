@@ -85,7 +85,7 @@ const GalleryCelebration = () => {
           {slice &&
             slice.map((slide, index) => {
               return (
-                <section class="py-4 ">
+                <section class="py-[0.9rem] ">
                   <div class="flex flex-wrap -mx-4 -mb-8">
                     <div
                       className="single md:w-1/4  mb-2"

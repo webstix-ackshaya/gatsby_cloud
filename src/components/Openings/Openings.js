@@ -15,10 +15,10 @@ const Openings = () => {
         className="px-4 py-16 mx-auto max-w-[85rem] lg:px-8 lg:py-20 flex  clsOpeningContainer"
         id="team"
       >
-        <div className=" w-[30%]  lg:mt-[40px] fixed clsOpeningContent">
+        <div className=" w-[30%]  lg:mt-[20px] fixed clsOpeningContent">
           <h1 className="text-[40px]  text-[#000] font-bold">{title}</h1>
           <p
-            className="text-[17px] pt-4"
+            className="leading-7 text-[17px] pt-4"
             dangerouslySetInnerHTML={{ __html: Content }}
           />
 

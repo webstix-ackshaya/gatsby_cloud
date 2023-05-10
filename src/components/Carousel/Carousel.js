@@ -32,9 +32,9 @@ function Carousel() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div class="max-w-[85rem] mx-auto mt-[6rem] mb-[3rem]  lg:px-7  h-[full] clsHomeBanner">
+          <div class="max-w-[85rem] mx-auto mt-[4rem] mb-[3rem]  lg:px-7  h-[full] clsHomeBanner">
             <div class="xl:flex items-center sm:block">
-              <div className="xl:w-[45%] sm:w-[100%]">
+              <div className="xl:w-[46%] sm:w-[100%]">
                 <div
                   className="xl:text-left font-bold text-gray-800 lg:text-[40px] md:text-[35px] lg:leading-tight clsHomeBannertitle"
                   dangerouslySetInnerHTML={{ __html: Content }}
@@ -51,7 +51,7 @@ function Carousel() {
                   </Link>
                 </div>
               </div>
-              <div class=" ml-8  xl:w-[54%] md:-w-[100%] md:pt-[50px]">
+              <div class=" ml-8  xl:w-[53%] md:-w-[100%] md:pt-[50px]">
                 <img
                   class="w-full rounded-md"
                   src={BannerImg}
