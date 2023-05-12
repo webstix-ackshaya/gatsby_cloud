@@ -214,7 +214,7 @@ iframe {
 }
 @media screen and (min-width: 1800px) {
   .clsteamContent {
-    max-width: 25% !important;
+    max-width: 16% !important;
   }
   .clsOpeningContent {
     max-width: 25% !important;
@@ -223,7 +223,6 @@ iframe {
 
 @media screen and (max-width: 1500px) {
   .clsteamContent{
-    max-width: 32%!important;
   }
 }
 @media screen and (max-width: 1330px) {
@@ -352,7 +351,7 @@ iframe {
     height: 240px !important;
   }
   .clsHomeGallery {
-    margin-top: 25px !important;
+    margin-top: 5px !important;
   }
   .clsContact {
     margin-top: 250px;
@@ -413,9 +412,13 @@ iframe {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
   .clsHomeBanner{
-    margin-top: 60px;
+    margin-top: 110px;
+  }
+  .clsHomeGallerydivOne
+  {
+    height: 44%;
   }
   .clsHomeBannertitle {
     font-size: 30px;

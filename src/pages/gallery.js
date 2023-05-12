@@ -44,7 +44,7 @@ export default function Gallery() {
         </div>
         <div className="w-[70%] clsGalleryImages">
           {" "}
-          <div className="lg:mt-[110px] md:mt-[60px] max-w-[85rem] mx-auto  flex justify-center clsTabs">
+          <div className="lg:mt-[155px] md:mt-[60px] max-w-[85rem] mx-auto  flex justify-center clsTabs">
             <Tabs
               value={value}
               onChange={handleTabs}

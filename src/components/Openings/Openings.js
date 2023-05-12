@@ -40,7 +40,7 @@ const Openings = () => {
           </div>
         </div>
 
-        <div className="grid gap-10 ml-auto sm:grid-cols-2 lg:grid-cols-2 lg:w-[55%] h-fit lg:mt-[60px] clsScroll  scroll clsOpeningImageContainer">
+        <div className="grid gap-10 ml-auto sm:grid-cols-2 lg:grid-cols-2 lg:w-[55%] h-fit lg:mt-[95px] clsScroll  scroll clsOpeningImageContainer">
           {data.allWpOpenings.nodes.map((list, index) => {
             return (
               <div className="rounded overflow-hidden max-h-[500px] clsOpeningImageContainerdiv">

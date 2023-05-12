@@ -99,6 +99,7 @@ body {
     z-index: 999;
     text-align: center;
     transition: 0.3s;
+    box-shadow: 0px 15px 7px -17px #111;
   }
 
   .nav-menu.active {

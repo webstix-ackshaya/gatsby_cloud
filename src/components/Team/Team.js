@@ -59,7 +59,7 @@ export const Team = () => {
         </div>
       </div>
 
-      <div class="grid gap-4 md:grid-cols-3 w-[62%] ml-auto h-fit lg:mt-[7rem] md:mt-[4rem] md: clsteamImage">
+      <div class="grid gap-4 md:grid-cols-3 w-[62%] ml-auto h-fit lg:mt-[11rem] md:mt-[4rem] clsteamImage">
         {team.map(t => (
           <div class="p-4 shadow max-h-[460px]">
             <div class="h-[250px] mb-2 overflow-hidden rounded-lg bg-[#f5f5f5] shadow-lg md:h-[250px] clsTeamImagediv">
