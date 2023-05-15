@@ -9,9 +9,9 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Wdpl`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Webstix Design Private Limited - wdpl.in`,
+    author: `Webstix`,
+    siteUrl: `https://wdpl.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -24,6 +24,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
