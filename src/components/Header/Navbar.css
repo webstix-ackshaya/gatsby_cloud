@@ -7,7 +7,7 @@
   z-index: 100;
   transition: 0.3s ease-in;
   overflow: hidden;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 
@@ -54,6 +54,8 @@ body {
 
 .header .nav-menu {
   display: flex;
+padding-left: 30px;
+padding-top: 15px;
 }
 
 .header .nav-item {
@@ -99,8 +101,8 @@ body {
     z-index: 999;
     text-align: center;
     transition: 0.3s;
-    box-shadow: 0px 15px 7px -17px #111;
-  }
+/*     box-shadow: 0px 15px 7px -17px #111;
+ */  }
 
   .nav-menu.active {
     left: 0;
@@ -120,4 +122,10 @@ body {
   .header {
     padding: 0px 15px;
   }
+}
+
+
+.navlogo
+{
+  margin-top: 35px;
 }

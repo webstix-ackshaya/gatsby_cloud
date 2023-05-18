@@ -32,7 +32,7 @@ function Carousel() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div class="max-w-[85rem] mx-auto mt-[4rem] mb-[3rem]  lg:px-7  h-[full] clsHomeBanner">
+          <div class="max-w-[85rem] mx-auto mt-[7rem] mb-[3rem]   lg:px-7  h-[full] clsHomeBanner">
             <div class="xl:flex items-center sm:block">
               <div className="xl:w-[46%] sm:w-[100%]">
                 <div
@@ -40,16 +40,7 @@ function Carousel() {
                   dangerouslySetInnerHTML={{ __html: Content }}
                 />
 
-                <div class="xl:mt-7  w-full sm:inline-flex clsherobtn  pb-[30px] pt-[10px]">
-                  <Link to="/careers">
-                    <button
-                      class="inline-flex justify-center items-center  bg-[#a31e22] mt-2 hover:bg-[#000] text-[#fff] font-semibold hover:text-[#fff] py-2 px-6 border hover:border-[#000]"
-                      href="#"
-                    >
-                      Join Us
-                    </button>
-                  </Link>
-                </div>
+              
               </div>
               <div class=" ml-8  xl:w-[53%] md:-w-[100%] md:pt-[50px]">
                 <img

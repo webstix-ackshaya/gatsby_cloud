@@ -18,6 +18,7 @@
   /* width: 200px; */
   width: 280px;
   cursor: pointer;
+  padding-bottom: 8px;
 }
 
 .galleryWrap .single img {
@@ -29,6 +30,10 @@
 .galleryWrap .single img:hover {
   transform: scale(1.01);
   transition: transform 30ms ease-in-out;
+}
+.clsHomeGallery .single img:hover{
+    transform: none;
+    transition: none;
 }
 
 .sliderWrap {
@@ -100,11 +105,12 @@
 .clsHomeGallery .single img {
   height: 155px !important;
     width: 246px;
-    padding: 6px;
+    padding: 4px;
 }
 .clsHomeGallery {
   gap: 0px;
   margin-top: 0px;
+  overflow-y: unset;
 }
 .galleryWrap::-webkit-scrollbar {
   display: none;

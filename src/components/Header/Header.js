@@ -1,8 +1,7 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
-import logo from "../../images/webstix.png"
+import logo from '../../images/webstix_logo.png'
 import { useMenuQuery } from "../../hooks/useMenuQuery"
-
 import { FaBars, FaTimes } from "react-icons/fa"
 import "../Header/Navbar.css"
 
@@ -10,27 +9,29 @@ const Header = () => {
   const [click, setClick] = useState(false)
   const handleClick = () => setClick(!click)
 
-  // const [top, setTop] = useState(true)
+  const [top, setTop] = useState(true)
 
-  // useEffect(() => {
-  //   const scrollHandler = () => {
-  //     window.pageYOffset > 10 ? setTop(false) : setTop(true)
-  //   }
-  //   window.addEventListener("scroll", scrollHandler)
-  //   return () => window.removeEventListener("scroll", scrollHandler)
-  // }, [top])
+  useEffect(() => {
+    const scrollHandler = () => {
+      window.pageYOffset > 10 ? setTop(false) : setTop(true)
+    }
+    window.addEventListener("scroll", scrollHandler)
+    return () => window.removeEventListener("scroll", scrollHandler)
+  }, [top])
 
   const closeMenu = () => setClick(false)
   const { wpMenu } = useMenuQuery()
   const menu = wpMenu.menuItems.nodes
-
   return (
-    // <div className={`header ${!top && `bg-white shadow-lg`}`}>
-    <div className="header bg-white shadow-md ">
+     <div className={`header ${!top && `bg-white shadow-sm scroll-smooth`}`}>
+    <div className="header ">
       <nav className="navbar">
-        <a href="/" className="logo">
-          <img src={logo} alt="logo" />
-        </a>
+        <div className="navlogo">
+    <a href="/" className="logo">
+          <img src={logo}  height="120px" width="120px"   alt="logo" />
+        </a> 
+        
+        </div>
         <div className="hamburger" onClick={handleClick}>
           {click ? (
             <FaTimes size={30} style={{ color: "#000" }} />
@@ -70,7 +71,24 @@ const Header = () => {
             ) : null
           )}
         </ul>
+
+
+   {/*       <div class="xl:mt-7  w-full sm:inline-flex clsherobtn  pb-[30px] pt-[10px]">
+                  <Link to="/careers">
+                    <button
+                      class="inline-flex justify-center items-center  bg-[#a31e22] mt-2 hover:bg-[#000] text-[#fff] font-semibold hover:text-[#fff] py-2 px-6 border hover:border-[#000]"
+                      href="#"
+                    >
+                      Join Us
+                    </button>
+                  </Link>
+                </div>  */}
+        <div>
+<Link to="/careers"><button class="inline-flex justify-center items-center  bg-[#a31e22] mt-2 hover:bg-[#000] text-[#fff] font-semibold hover:text-[#fff] py-2 px-6 border hover:border-[#000] rounded-md "href="#">Join Our Team</button></Link>
+</div>
       </nav>
+
+    </div>
     </div>
   )
 }

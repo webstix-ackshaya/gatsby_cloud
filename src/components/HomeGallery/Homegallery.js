@@ -30,7 +30,7 @@ export default function Homegallery() {
                     </p>
                     <div className="ml-[30px]">
                       <Link to="/gallery">
-                        <button class="bg-transparent mt-6 hover:bg-[#000] text-[#000]] font-semibold hover:text-white py-2 px-6 border border-black hover:border-transparent">
+                        <button class="bg-transparent  rounded-md mt-6 hover:bg-[#000] text-[#000]] font-semibold hover:text-white py-2 px-6 border border-black hover:border-transparent">
                           See More
                         </button>
                       </Link>
@@ -40,7 +40,7 @@ export default function Homegallery() {
                     </div>
                   </div>
 
-                  <div className="galleryWrap clsHomeGallery container mx-auto pt-2 w-[60%] mt-[100px] pl-[20px]">
+                  <div className="galleryWrap clsHomeGallery container mx-auto pt-2 w-[62%] mt-[100px] pl-[20px]">
                     {slice &&
                       slice.map((slide, index) => {
                         return (
@@ -48,7 +48,7 @@ export default function Homegallery() {
                             <div class="flex flex-wrap -mx-4 ">
                               <div className="single md:w-1/4 " key={index}>
                                 <img
-                                  className=" shadow-md "
+                                  className=""
                                   src={slide.sourceUrl}
                                   alt=""
                                 />

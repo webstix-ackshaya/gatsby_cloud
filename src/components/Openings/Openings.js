@@ -15,24 +15,24 @@ const Openings = () => {
         className="px-4 py-16 mx-auto max-w-[85rem] lg:px-8 lg:py-20 flex  clsOpeningContainer"
         id="team"
       >
-        <div className=" w-[30%]  lg:mt-[20px] fixed clsOpeningContent">
+        <div className=" w-[30%]  lg:mt-[90px] fixed clsOpeningContent">
           <h1 className="text-[40px]  text-[#000] font-bold">{title}</h1>
           <p
-            className="leading-7 text-[17px] pt-4"
+            className="leading-7 lg:mt-[1px] text-[17px] pt-4"
             dangerouslySetInnerHTML={{ __html: Content }}
           />
 
           <div className="flex items-center">
             <div>
               <Link to="/about-us">
-                <button class="bg-[#fff] mt-8 mr-6 hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-2 px-6 border border-black">
+                <button class="bg-[#fff] mt-8 mr-6 hover:bg-[#000] text-[#000] rounded-md  font-semibold hover:text-[#fff] py-2 px-6 border border-black">
                   About Us
                 </button>
               </Link>
             </div>
             <div>
               <Link to="/our-team">
-                <button class="bg-[#fff] mt-8 hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-2 px-6 border border-black">
+                <button class="bg-[#fff] mt-8 hover:bg-[#000] text-[#000] rounded-md font-semibold hover:text-[#fff] py-2 px-6 border border-black">
                   Our Team
                 </button>
               </Link>
@@ -103,7 +103,7 @@ const Openings = () => {
 
                             <div class=" px-6 text-center pb-4 rounded-[2px]">
                               <a
-                                class=" inline-flex justify-center items-center  bg-[#a31e22] mt-4 hover:bg-[#000] text-[#fff] font-semibold hover:text-[#fff] py-2 px-4 border hover:border-[#000] text-[14px] "
+                                class=" inline-flex justify-center items-center rounded-md  bg-[#a31e22] mt-4 hover:bg-[#000] text-[#fff] font-semibold hover:text-[#fff] py-2 px-4 border hover:border-[#000] text-[14px] "
                                 href={list.openingdetails.applynow.url}
                               >
                                 Apply Now
@@ -126,9 +126,9 @@ const Openings = () => {
                   ))}
                 </div>
 
-                <div class=" px-6 text-left pb-4 rounded-[2px]">
+                <div class=" px-6 text-right pb-4 rounded-[2px]">
                   <a
-                    class="clsApplybtn inline-flex justify-center mr-4 items-center  bg-[#a31e22] mt-4 hover:bg-[#000] text-[#fff] font-semibold hover:text-[#fff] py-[7px] px-[14px] border hover:border-[#000] text-[14px]"
+                    class="clsApplybtn inline-flex  rounded-md justify-center mr-4 items-center  bg-[#a31e22] mt-4 hover:bg-[#000] text-[#fff] font-semibold hover:text-[#fff] py-[7px] px-[14px] border hover:border-[#000] text-[14px]"
                     href={list.openingdetails.applynow.url}
                   >
                     Apply Now

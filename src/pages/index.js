@@ -25,7 +25,10 @@ export default function index() {
         <Carousel />
         <AboutUsTwo />
         <Homegallery />
-        <ContactUs />
+        <div class="bg-[url('/images/polygon.png')]">
+          <ContactUs />
+          </div>
+        
       </div>
       <Footer />
     </>

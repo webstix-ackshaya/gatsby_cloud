@@ -34,7 +34,7 @@ export default function AboutTwo() {
             </div>
           </div>
           <Link to="/about-us">
-            <button class="bg-transparent mt-6 hover:bg-[#000] text-[#000]] font-semibold hover:text-white py-2 px-6 border border-black hover:border-transparent">
+            <button class="bg-transparent mt-6 rounded-md hover:bg-[#000] text-[#000]] font-semibold hover:text-white py-2 px-6 border border-black hover:border-transparent">
               Learn More
             </button>
           </Link>

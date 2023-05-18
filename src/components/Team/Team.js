@@ -13,13 +13,13 @@ export const Team = () => {
 
   return (
     <div class="max-w-[85rem] mx-auto  lg:px-6 flex lg:mb-[100px] md:mb-[100px]  clsteamContainer">
-      <div class="mb-10 md:mb-16  max-w-[32%] pr-[75px] fixed mt-[6rem] clsteamContent z-10">
-        <h2 class="text-3xl font-bold mb-6 text-[#000] text-[40px] capitalize pt-4">
+      <div class="mb-10 md:mb-16  max-w-[32%] pr-[75px] fixed mt-[10rem] clsteamContent z-10">
+        <h2 class="text-3xl font-bold mb-4 text-[#000] text-[40px] capitalize pt-4">
           {title}
         </h2>
 
         <p
-          class="max-w-screen-md mx-auto text-left md:text-lg"
+          class="max-w-screen-md mx-auto mt-[4px] text-left md:text-lg"
           dangerouslySetInnerHTML={{ __html: content }}
         />
 
@@ -45,14 +45,14 @@ export const Team = () => {
         </div>
         <div>
           <Link to="/organization">
-            <button class="bg-[#fff] mt-8 hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-2 px-6 border border-black">
+            <button class="bg-[#fff] mt-8 hover:bg-[#000] text-[#000] rounded-md font-semibold hover:text-[#fff] py-2 px-6 border border-black">
               Organization Chart
             </button>
           </Link>
         </div>
         <div>
           <Link to="/careers">
-            <button class="bg-[#fff] mt-7 hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-2 px-6 border border-black">
+            <button class="bg-[#fff] mt-7 hover:bg-[#000] text-[#000] rounded-md font-semibold hover:text-[#fff] py-2 px-6 border border-black">
               Join us
             </button>
           </Link>

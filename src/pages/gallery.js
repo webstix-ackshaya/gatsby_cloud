@@ -27,9 +27,9 @@ export default function Gallery() {
       <Header />
 
       <div className=" max-w-[85rem] mx-auto  lg:px-7 min-h-[750px] flex clsGalleryContainer ">
-        <div className="w-[32%] mb-10 md:mb-16  pr-[35px] mt-[6rem] clsGalleryContentdiv">
+        <div className="w-[32%] mb-10 md:mb-16  pr-[35px] mt-[9rem] clsGalleryContentdiv">
           <h2
-            class="text-3xl font-bold mb-6 text-[#000] text-[40px] capitalize pt-4"
+            class="text-3xl font-bold mb-5 text-[#000] text-[40px] capitalize pt-4"
             dangerouslySetInnerHTML={{ __html: title }}
           ></h2>
           <p
@@ -37,7 +37,7 @@ export default function Gallery() {
             dangerouslySetInnerHTML={{ __html: Content }}
           ></p>
           <Link to="/careers">
-            <button className="bg-[#fff]  mt-6 hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-2 px-6     border border-black">
+            <button className="bg-[#fff]  mt-6 hover:bg-[#000] text-[#000] rounded-md font-semibold hover:text-[#fff] py-2 px-6     border border-black">
               Join Us
             </button>
           </Link>

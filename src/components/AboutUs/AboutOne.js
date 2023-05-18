@@ -12,7 +12,7 @@ export default function AboutOne() {
   const Image = data.wpPage.featuredImage.node.localFile.publicURL
 
   return (
-    <section class="max-w-[85rem] mx-auto mt-[6rem] lg:px-8 mb-[80px]">
+    <section class="max-w-[85rem] mx-auto mt-[10rem] lg:px-8 mb-[80px]">
       <div class="flex flex-wrap clsAboutOne">
         {/* <div class="grow-0 shrink-0 basis-auto mb-6 mt-[4rem] md:mb-0 w-[50%] md:w-12/12 md:pb-8 lg:w-6/12 px-3 lg:px-2 clsAboutContentdiv"> */}
         <h2
@@ -27,7 +27,7 @@ export default function AboutOne() {
             alt="about-us"
           />
           <p
-            className="leading-7 text-[17px] xl:w-[82%] "
+            className="leading-7 mt-[1rem] text-[17px] xl:w-[82%] "
             dangerouslySetInnerHTML={{ __html: Content }}
           >
             {/* <ReactReadMoreReadLess
@@ -40,12 +40,12 @@ export default function AboutOne() {
           </p>
         </div>
         <Link to="/our-team">
-          <button className="bg-[#fff] mr-5 hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-2 px-6 border border-black">
+          <button className="bg-[#fff] mr-5 hover:bg-[#000] text-[#000] rounded-md font-semibold hover:text-[#fff] py-2 px-6 border border-black">
             Our Team
           </button>
         </Link>
         <Link to="/careers">
-          <button className="bg-[#fff]   hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-2 px-6 border border-black">
+          <button className="bg-[#fff] rounded-md  hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-2 px-6 border border-black">
             Join Us
           </button>
         </Link>
