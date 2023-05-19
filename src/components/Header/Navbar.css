@@ -63,9 +63,14 @@ padding-top: 15px;
   font-weight: 500;
 }
 
-.header .nav-item a:hover {
+/* .header .nav-item a:hover {
   padding-bottom: 12px;
-  border-bottom: 3px solid var(--secondary-color);
+  border-bottom: 3px solid #a51720;
+} */
+.header .nav-menu a:hover {
+  padding-bottom: 12px;
+  border-bottom: 3px solid #a51720;
+
 }
 
 .hamburger {
@@ -89,6 +94,15 @@ padding-top: 15px;
     display: block;
     color: #000;
   }
+  @media screen and (max-width: 940px) {
+  #clsheaderborder{
+    border-bottom: 1px solid #e7e7e7;
+    padding-top: 30px;
+  }
+  .clsteambtn {
+    display: none;
+  }
+}
 
   .nav-menu {
     position: fixed;
@@ -125,7 +139,7 @@ padding-top: 15px;
 }
 
 
-.navlogo
+/* .navlogo
 {
   margin-top: 35px;
-}
+} */

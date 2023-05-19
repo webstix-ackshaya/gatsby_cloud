@@ -19,7 +19,7 @@ export default function Homegallery() {
               </h2>
               <div className="	h-[480px] ">
                 <div className="flex justify-start items-start h-full pb-6 w-[100%]  clshomeGalleryContainer  ">
-                  <div className="w-[40%] pr-12 h-full clsHomeGallerydivOne pt-[120px]">
+                  <div className="w-[40%] pr-12 h-full clsHomeGallerydivOne pt-[12px]">
                     <p
                       className="text-[22px] leading-7 font-bold sidekick blockquote"
                       // dangerouslySetInnerHTML={{ __html: Content }}

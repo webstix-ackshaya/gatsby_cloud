@@ -11,13 +11,13 @@ export default function AboutTwo() {
 
   return (
     <section class="max-w-[85rem] mx-auto lg:mt-[6rem]  lg:px-6 clsAbouttwo">
-      <div class="flex flex-wrap">
-        <div class="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full md:w-12/12 md:pb-12 lg:w-6/12 px-3 lg:px-2">
+      <div class="flex flex-wrap ">
+        <div class="grow-0 shrink-0  basis-auto mb-12 md:mb-0 w-full md:w-12/12 md:pb-12 lg:w-6/12 px-3 lg:px-2">
           <h2
             class="text-3xl font-bold mb-6 text-[#000] text-[36px] capitalize pt-4"
             dangerouslySetInnerHTML={{ __html: title }}
           ></h2>
-          <div class="flex items-start rounded-xl bg-white  lg:w-[90%] ">
+          <div class="flex items-start rounded-xl  lg:w-[90%] ">
             <div class="">
               <p
                 className="leading-7 text-[17px] "

@@ -44,7 +44,7 @@ const Openings = () => {
           {data.allWpOpenings.nodes.map((list, index) => {
             return (
               <div className="rounded overflow-hidden max-h-[500px] clsOpeningImageContainerdiv">
-                <div className="relative mb-4 rounded  overflow-hidden shadow-lg lg:pb-36 bg-[#f5f5f5] clsImgheight">
+                <div className="relative mb-4 rounded  overflow-hidden lg:pb-36 bg-[#f5f5f5] clsImgheight">
                   <img
                     className="absolute object-contain object-bottom w-[100%] h-full rounded"
                     src={list.featuredImage.node.sourceUrl}
@@ -72,8 +72,8 @@ const Openings = () => {
 
                     <Popup
                       trigger={
-                        <button className="button w-full text-right flex items-center justify-end pt-[5px] text-[15px]">
-                          Read More
+                        <button className="button w-full text-right flex items-center  pt-[15px] text-[17px]">
+                       <b>  <u> Read More </u></b>
                           <span className="pl-[5px] flex">
                             <HiArrowNarrowRight />
                           </span>
@@ -126,16 +126,18 @@ const Openings = () => {
                   ))}
                 </div>
 
-                <div class=" px-6 text-right pb-4 rounded-[2px]">
+                <div class=" px-6 text-left pb-4  rounded-[2px]">
+        
+                  <span className="text-[12px]  text-gray-600">
+                    Posted On: {list.date}
+                  </span>
+
                   <a
-                    class="clsApplybtn inline-flex  rounded-md justify-center mr-4 items-center  bg-[#a31e22] mt-4 hover:bg-[#000] text-[#fff] font-semibold hover:text-[#fff] py-[7px] px-[14px] border hover:border-[#000] text-[14px]"
+                    class="clsApplybtn inline-flex  rounded-md justify-center ml-12 items-center  bg-[#a31e22] mt-4 hover:bg-[#000] text-[#fff] font-semibold hover:text-[#fff] py-[7px] px-[14px] border hover:border-[#000] text-[14px]"
                     href={list.openingdetails.applynow.url}
                   >
                     Apply Now
                   </a>
-                  <span className="text-[14px] text-gray-600">
-                    Posted On: {list.date}
-                  </span>
                 </div>
               </div>
             )

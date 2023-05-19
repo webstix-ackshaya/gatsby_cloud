@@ -1,5 +1,6 @@
  import React, { useState } from "react"
 import Footer from "../components/Footer/Footer"
+import { Helmet } from "react-helmet"
 
 import GalleryOuting from "../components/Gallery/GalleryOuting"
 import Header from "../components/Header/Header"
@@ -24,6 +25,15 @@ export default function Gallery() {
 
   return (
     <>
+
+<div className="application">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Gallery - wdpl.in</title>
+          <link rel="canonical" href="https://wdpl.gatsbyjs.io/" />
+        </Helmet>
+      </div>
+
       <Header />
 
       <div className=" max-w-[85rem] mx-auto  lg:px-7 min-h-[750px] flex clsGalleryContainer ">

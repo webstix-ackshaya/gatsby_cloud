@@ -23,16 +23,16 @@ const Header = () => {
   const { wpMenu } = useMenuQuery()
   const menu = wpMenu.menuItems.nodes
   return (
-     <div className={`header ${!top && `bg-white shadow-sm scroll-smooth`}`}>
-    <div className="header ">
-      <nav className="navbar">
+     <div id="clsheaderborder" className= {`header ${!top && `bg-white shadow-sm scroll-smooth`}`}  >
+    <div className="header relative ">
+      <nav className="navbar flex items-center align-middle">
         <div className="navlogo">
     <a href="/" className="logo">
           <img src={logo}  height="120px" width="120px"   alt="logo" />
         </a> 
         
         </div>
-        <div className="hamburger" onClick={handleClick}>
+        <div className="hamburger absolute right-5" onClick={handleClick}>
           {click ? (
             <FaTimes size={30} style={{ color: "#000" }} />
           ) : (
@@ -84,7 +84,7 @@ const Header = () => {
                   </Link>
                 </div>  */}
         <div>
-<Link to="/careers"><button class="inline-flex justify-center items-center  bg-[#a31e22] mt-2 hover:bg-[#000] text-[#fff] font-semibold hover:text-[#fff] py-2 px-6 border hover:border-[#000] rounded-md "href="#">Join Our Team</button></Link>
+<Link to="/careers"><button class="clsteambtn justify-center items-center  bg-[#a31e22] mt-2 hover:bg-[#000] text-[#fff] font-semibold hover:text-[#fff] py-2 px-6 border hover:border-[#000] rounded-md "href="#">Join Our Team</button></Link>
 </div>
       </nav>
 

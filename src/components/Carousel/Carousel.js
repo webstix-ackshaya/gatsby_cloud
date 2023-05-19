@@ -33,12 +33,18 @@ function Carousel() {
       >
         <SwiperSlide>
           <div class="max-w-[85rem] mx-auto mt-[7rem] mb-[3rem]   lg:px-7  h-[full] clsHomeBanner">
-            <div class="xl:flex items-center sm:block">
+            <div class="xl:flex items-center sm:block px-3">
               <div className="xl:w-[46%] sm:w-[100%]">
                 <div
-                  className="xl:text-left font-bold text-gray-800 lg:text-[40px] md:text-[35px] lg:leading-tight clsHomeBannertitle"
+                  className="text-left txl:text-left font-bold text-gray-800 lg:text-[40px] md:text-[35px] lg:leading-tight clsHomeBannertitle"
                   dangerouslySetInnerHTML={{ __html: Content }}
                 />
+                <div className=" max-w-[85rem] mx-auto flex justify-items-start clsteambtnwrapper ">
+                                  <Link to="/careers"><button class="clsteambtn-2 justify-center items-center  bg-[#a31e22] mt-2 hover:bg-[#000] text-[#fff] font-semibold hover:text-[#fff] py-2 px-6 border hover:border-[#000] rounded-md "href="#">Join Our Team</button></Link>
+
+
+                </div>
+
 
               
               </div>

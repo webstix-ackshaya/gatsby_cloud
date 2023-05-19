@@ -8,6 +8,14 @@ export const useContactQuery = () => {
         content
         blocks
       }
+
+        wpMediaItem(filename: {eq: "polygon.svg"}) {
+          title
+          localFile {
+            publicURL
+          }
+        }
+    
     }
   `)
 
