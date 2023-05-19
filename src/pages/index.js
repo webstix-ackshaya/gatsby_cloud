@@ -26,7 +26,12 @@ export default function index() {
         <div class="clsAboutUsTwo">
         <AboutUsTwo />
         </div>
-   
+        <div clasName="blobs">
+          <div class="shape-blob"></div>
+	        <div class="shape-blob one"></div>
+	        <div class="shape-blob two"></div>
+          <div class="shape-blob three"></div>
+        </div>
        
 
         <div class="clsHomeGallery" style={{
