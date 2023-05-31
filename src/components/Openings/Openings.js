@@ -16,7 +16,7 @@ const Openings = () => {
         id="team"
       >
         <div className=" w-[30%]  lg:mt-[90px] fixed clsOpeningContent">
-          <h1 className="text-[40px]  text-[#000] font-bold">{title}</h1>
+          <h1 className="text-[40px]  text-[#333] font-bold">{title}</h1>
           <p
             className="leading-7 lg:mt-[1px] text-[17px] pt-4"
             dangerouslySetInnerHTML={{ __html: Content }}
@@ -25,14 +25,14 @@ const Openings = () => {
           <div className="flex items-center">
             <div>
               <Link to="/about-us">
-                <button class="bg-[#fff] mt-8 mr-6 hover:bg-[#000] text-[#000] rounded-md  font-semibold hover:text-[#fff] py-2 px-6 border border-black">
+                <button class="bg-[#fff] mt-8 mr-6 hover:bg-[#333] text-[#333] rounded-md  font-semibold hover:text-[#fff] py-[0.5rem] px-[1.2rem] text-[14px]  border border-black">
                   About Us
                 </button>
               </Link>
             </div>
             <div>
               <Link to="/our-team">
-                <button class="bg-[#fff] mt-8 hover:bg-[#000] text-[#000] rounded-md font-semibold hover:text-[#fff] py-2 px-6 border border-black">
+                <button class="bg-[#fff] mt-8 hover:bg-[#333] text-[#333] rounded-md font-semibold hover:text-[#fff] py-[0.5rem] px-[1.2rem] text-[14px] border border-black">
                   Our Team
                 </button>
               </Link>
@@ -103,7 +103,7 @@ const Openings = () => {
 
                             <div class=" px-6 text-center pb-4 rounded-[2px]">
                               <a
-                                class=" inline-flex justify-center items-center rounded-md  bg-[#a31e22] mt-4 hover:bg-[#000] text-[#fff] font-semibold hover:text-[#fff] py-2 px-4 border hover:border-[#000] text-[14px] "
+                                class=" inline-flex justify-center items-center rounded-md  bg-[#a31e22] mt-4 hover:bg-[#333] text-[#fff] font-semibold hover:text-[#fff] py-2 px-4 border hover:border-[#333] text-[14px] "
                                 href={list.openingdetails.applynow.url}
                               >
                                 Apply Now
@@ -119,7 +119,7 @@ const Openings = () => {
                   {list.tags.nodes.map((i, j) => (
                     <span
                       key={i.id}
-                      class="inline-block bg-[#ddd] odd:bg-[#d1d5db] even:bg-[#d8b4fe]   rounded-full px-[10px] py-[5px] text-[10px] font-bold text-[#000] mr-2 mb-2 uppercase"
+                      class="inline-block bg-[#ddd] odd:bg-[#d1d5db] even:bg-[#d8b4fe]   rounded-full px-[10px] py-[5px] text-[10px] font-bold text-[#333] mr-2 mb-2 uppercase"
                     >
                       {i.name}
                     </span>
@@ -133,7 +133,7 @@ const Openings = () => {
                   </span>
 
                   <a
-                    class="clsApplybtn inline-flex  rounded-md justify-center ml-12 items-center  bg-[#a31e22] mt-4 hover:bg-[#000] text-[#fff] font-semibold hover:text-[#fff] py-[7px] px-[14px] border hover:border-[#000] text-[14px]"
+                    class="clsApplybtn inline-flex  rounded-md justify-center ml-12 items-center  bg-[#a31e22] mt-4 hover:bg-[#333] text-[#fff] font-semibold hover:text-[#fff] py-[7px] px-[14px] border hover:border-[#333] text-[14px]"
                     href={list.openingdetails.applynow.url}
                   >
                     Apply Now

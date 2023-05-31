@@ -1,10 +1,10 @@
 .galleryWrap {
   display: flex;
   flex-wrap: wrap;
-  gap: 2px;
-  align-items: center;
+  gap: 44px;
+  align-items: start;
   /* justify-content: center; */
-  justify-content: space-evenly;
+  justify-content: start;
   /* max-width: 620px; */
   max-width: 1000px;
   margin: 0 auto;
@@ -16,8 +16,7 @@
 
 .galleryWrap .single {
   /* width: 200px; */
-  width: 280px;
-  cursor: pointer;
+  width: 292px;
   padding-bottom: 8px;
 }
 
@@ -35,7 +34,10 @@
     transform: none;
     transition: none;
 }
-
+.PrivateTabIndicator-colorSecondary-3 
+{
+background-color: #a31e22 !important;
+}
 .sliderWrap {
   position: fixed;
   top: 0;

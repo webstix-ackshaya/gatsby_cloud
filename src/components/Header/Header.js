@@ -28,15 +28,15 @@ const Header = () => {
       <nav className="navbar flex items-center align-middle">
         <div className="navlogo">
     <a href="/" className="logo">
-          <img src={logo}  height="120px" width="120px"   alt="logo" />
+          <img src={logo}  height="120px" width="140px"   alt="logo" />
         </a> 
         
         </div>
         <div className="hamburger absolute right-5" onClick={handleClick}>
           {click ? (
-            <FaTimes size={30} style={{ color: "#000" }} />
+            <FaTimes size={30} style={{ color: "#333" }} />
           ) : (
-            <FaBars size={30} style={{ color: "#000" }} />
+            <FaBars size={30} style={{ color: "#333" }} />
           )}
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -47,7 +47,7 @@ const Header = () => {
                   to={mainItem.url}
                   onClick={closeMenu}
                   activeClassName="nav-active"
-                  className="text-gray-800 hover:text-gray-400 duration-500"
+                  className="text-gray-800 hover:text-gray-400 duration-100"
                 >
                   {mainItem.label}
                   {mainItem.childItems.nodes.length !== 0 && <div>&#8964;</div>}
@@ -84,7 +84,7 @@ const Header = () => {
                   </Link>
                 </div>  */}
         <div>
-<Link to="/careers"><button class="clsteambtn justify-center items-center  bg-[#a31e22] mt-2 hover:bg-[#000] text-[#fff] font-semibold hover:text-[#fff] py-2 px-6 border hover:border-[#000] rounded-md "href="#">Join Our Team</button></Link>
+<Link to="/careers"><button class="clsteambtn justify-center items-center  bg-[#a31e22] mt-2 hover:bg-[#333] text-[#fff] font-semibold hover:text-[#fff] py-2 px-6 border hover:border-[#333] rounded-md "href="#">Join Our Team</button></Link>
 </div>
       </nav>
 

@@ -13,8 +13,8 @@ export const Team = () => {
 
   return (
     <div class="max-w-[85rem] mx-auto  lg:px-6 flex lg:mb-[100px] md:mb-[100px]  clsteamContainer">
-      <div class="mb-10 md:mb-16  max-w-[32%] pr-[75px] fixed mt-[10rem] clsteamContent z-10">
-        <h2 class="text-3xl font-bold mb-4 text-[#000] text-[40px] capitalize pt-4">
+      <div class="mb-10 md:mb-16  max-w-[32%] pr-[75px] fixed mt-[7.5rem] clsteamContent z-10">
+        <h2 class="text-3xl font-bold mb-4 text-[#333] text-[40px] capitalize pt-4">
           {title}
         </h2>
 
@@ -31,7 +31,7 @@ export const Team = () => {
                 <Link to={c.uri}>
                   <button
                     type="button"
-                    class=" rounded-lg text-[12px]  text-center inline-flex items-center bg-[#fff] mt-6 hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-[7px] px-[14px] border border-black mr-3"
+                    class=" rounded-lg text-[12px]  text-center inline-flex items-center bg-[#fff] mt-6 hover:bg-[#333] text-[#333] font-semibold hover:text-[#fff] py-[7px] px-[14px] border border-black mr-3"
                   >
                     {c.name}
                     <span className="pl-2">
@@ -45,24 +45,24 @@ export const Team = () => {
         </div>
         <div>
           <Link to="/organization">
-            <button class="bg-[#fff] mt-8 hover:bg-[#000] text-[#000] rounded-md font-semibold hover:text-[#fff] py-2 px-6 border border-black">
+            <button class="bg-[#fff] mt-8 hover:bg-[#333] text-[#333] rounded-md font-semibold hover:text-[#fff] py-[0.5rem] px-[1.2rem] text-[14px]  border border-black">
               Organization Chart
             </button>
           </Link>
         </div>
         <div>
           <Link to="/careers">
-            <button class="bg-[#fff] mt-7 hover:bg-[#000] text-[#000] rounded-md font-semibold hover:text-[#fff] py-2 px-6 border border-black">
+            <button class="bg-[#fff] mt-7 hover:bg-[#333] text-[#333] rounded-md font-semibold hover:text-[#fff] py-[0.5rem] px-[1.2rem] text-[14px]  border border-black">
               Join us
             </button>
           </Link>
         </div>
       </div>
 
-      <div class="grid gap-4 md:grid-cols-3 w-[62%] ml-auto h-fit lg:mt-[11rem] md:mt-[4rem] clsteamImage">
+      <div class="grid gap-4 md:grid-cols-3 w-[62%] ml-auto h-fit lg:mt-[7.5rem] md:mt-[4rem] clsteamImage">
         {team.map(t => (
-          <div class="p-4 shadow max-h-[460px]">
-            <div class="h-[250px] mb-2 overflow-hidden rounded-lg bg-[#f5f5f5] shadow-lg md:h-[250px] clsTeamImagediv">
+          <div class="p-4 shadow-lg max-h-[460px]">
+            <div class="h-[250px] mb-2 overflow-hidden rounded-lg bg-[#f5f5f5]  md:h-[250px] clsTeamImagediv">
               <img
                 src={t.featuredImage.node.sourceUrl}
                 alt="team-img"
@@ -72,7 +72,7 @@ export const Team = () => {
 
             <div class="flex flex-col items-left justify-center">
               <div className="flex justify-between">
-                <div class="font-bold text-[#000] md:text-lg">{t.title}</div>
+                <div class="font-bold text-[#333] md:text-lg">{t.title}</div>
                 <div className="pt-1">
                   {t.teamDetails.linkedin ? (
                     <div class="flex">

@@ -14,7 +14,7 @@ export default function Homegallery() {
         <section class="max-w-[85rem] mx-auto mt-[6rem] lg:px-6 clsHomeGalleryMain   ">
           <div class="">
             <div class="ml-3">
-              <h2 class="text-3xl font-bold mb-8 text-[#000] text-[36px]">
+              <h2 class="text-3xl font-bold mb-8 text-[#333] text-[36px]">
                 Gallery
               </h2>
               <div className="	h-[480px] ">
@@ -25,12 +25,11 @@ export default function Homegallery() {
                       // dangerouslySetInnerHTML={{ __html: Content }}
                     >
                       {" "}
-                      Sometimes you will never know the true value of a moment
-                      until it becomes a memory.
-                    </p>
-                    <div className="ml-[30px]">
+                      Where work meets joy and collaboration thrives, magic happens and joy flourishes.
+</p>
+                    <div className=" mt-5">
                       <Link to="/gallery">
-                        <button class="bg-transparent  rounded-md mt-6 hover:bg-[#000] text-[#000]] font-semibold hover:text-white py-2 px-6 border border-black hover:border-transparent">
+                        <button class="bg-transparent  rounded-md mt-6 hover:bg-[#333] text-[#333] font-semibold hover:text-white py-[0.5rem] px-[1.2rem] text-[14px] border border-black hover:border-transparent">
                           See More
                         </button>
                       </Link>

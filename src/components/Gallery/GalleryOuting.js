@@ -86,7 +86,7 @@ const GalleryOuting = () => {
             slice.map((slide, index) => {
               return (
                 <section class="py-[0.9rem]">
-                  <div class="flex flex-wrap -mx-4 -mb-8">
+                  <div class="flex flex-wrap -mx-4 -mb-[4.8rem]">
                     <div
                       className="single md:w-1/4  mb-2"
                       key={index}

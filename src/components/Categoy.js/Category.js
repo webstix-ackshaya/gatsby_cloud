@@ -15,7 +15,7 @@ const Category = ({ catId, categories }) => {
       <Link to="/our-team">
                     <button
                     type="button"
-                    class="rounded-lg text-[12px]  text-center inline-flex items-center bg-[#fff]  hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-[7px] px-[14px] border border-black mr-3 mb-6"
+                    class="rounded-lg text-[12px]  text-center inline-flex items-center bg-[#fff]  hover:bg-[#333] text-[#333] font-semibold hover:text-[#fff] py-[7px] px-[14px] border border-black mr-3 mb-6"
                 activeClassName="cat-active"
                   >
                     All 
@@ -34,7 +34,7 @@ const Category = ({ catId, categories }) => {
               <Link
                 to={cat.node.uri}
                 key={cat.node.id}
-                class="rounded-lg text-[12px]  text-center inline-flex items-center bg-[#fff]  hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-[7px] px-[14px] border border-black mr-3 mb-6"
+                class="rounded-lg text-[12px]  text-center inline-flex items-center bg-[#fff]  hover:bg-[#333] text-[#333] font-semibold hover:text-[#fff] py-[7px] px-[14px] border border-black mr-3 mb-6"
                 activeClassName="cat-active"
               >
                 <div className="flex items-center">

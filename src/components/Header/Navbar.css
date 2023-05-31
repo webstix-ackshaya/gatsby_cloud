@@ -45,7 +45,7 @@ body {
 }
 
 .header .nav-menu a {
-  color: #000;
+  color: #333;
 }
 
 .header .navbar img {
@@ -92,7 +92,7 @@ padding-top: 15px;
 
   .hamburger {
     display: block;
-    color: #000;
+    color: #333;
   }
   @media screen and (max-width: 940px) {
   #clsheaderborder{
@@ -139,7 +139,7 @@ padding-top: 15px;
 }
 
 
-/* .navlogo
+.navlogo
 {
-  margin-top: 35px;
-} */
+  margin-top: 30px;
+}

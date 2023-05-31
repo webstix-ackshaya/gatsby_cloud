@@ -14,7 +14,7 @@ export default function AboutTwo() {
       <div class="flex flex-wrap ">
         <div class="grow-0 shrink-0  basis-auto mb-12 md:mb-0 w-full md:w-12/12 md:pb-12 lg:w-6/12 px-3 lg:px-2">
           <h2
-            class="text-3xl font-bold mb-6 text-[#000] text-[36px] capitalize pt-4"
+            class="text-3xl font-bold mb-6 text-[#333] text-[36px] capitalize pt-4"
             dangerouslySetInnerHTML={{ __html: title }}
           ></h2>
           <div class="flex items-start rounded-xl  lg:w-[90%] ">
@@ -34,7 +34,7 @@ export default function AboutTwo() {
             </div>
           </div>
           <Link to="/about-us">
-            <button class="bg-transparent mt-6 rounded-md hover:bg-[#000] text-[#000]] font-semibold hover:text-white py-2 px-6 border border-black hover:border-transparent">
+            <button class="bg-transparent text-[14px] mt-6 rounded-md hover:bg-[#333] text-[#333] font-semibold hover:text-white py-[0.5rem] px-[1.2rem]  border border-black hover:border-transparent">
               Learn More
             </button>
           </Link>

@@ -40,7 +40,7 @@ function Carousel() {
                   dangerouslySetInnerHTML={{ __html: Content }}
                 />
                 <div className=" max-w-[85rem] mx-auto flex justify-items-start clsteambtnwrapper ">
-                                  <Link to="/careers"><button class="clsteambtn-2 justify-center items-center  bg-[#a31e22] mt-2 hover:bg-[#000] text-[#fff] font-semibold hover:text-[#fff] py-2 px-6 border hover:border-[#000] rounded-md "href="#">Join Our Team</button></Link>
+                                  <Link to="/careers"><button class="clsteambtn-2 justify-center items-center  bg-[#a31e22] mt-2 hover:bg-[#333] text-[#fff] font-semibold hover:text-[#fff] py-2 px-6 border hover:border-[#33] rounded-md "href="#">Join Our Team</button></Link>
 
 
                 </div>

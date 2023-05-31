@@ -66,11 +66,11 @@ body{
   margin-top: 20px;
 }
 .react-read-more-read-less-less:hover {
-  background: #000;
+  background: #333;
   color: #fff;
 }
 .react-read-more-read-less-more:hover {
-  background: #000;
+  background: #333;
   color: #fff;
 }
 
@@ -83,7 +83,7 @@ body::-webkit-scrollbar {
   background: #a51720;
 }
 ::-webkit-scrollbar-track {
-  background: #000;
+  background: #333;
 }
 iframe {
   width: 100%;
@@ -121,7 +121,7 @@ iframe {
 .swiper-button-prev:after,
 .swiper-button-next:after {
   font-size: 30px !important;
-  color: #000;
+  color: #333;
   background: #ddd;
   padding: 8px;
 }
@@ -189,6 +189,16 @@ iframe {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.clsGalleryImages .MuiTab-root {
+  text-transform: capitalize;
+}
+
+.clsMainContactbg
+{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:right ;
+}
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
@@ -510,7 +520,7 @@ margin-top: 100px;
 }
 .cat-active {
   color: #fff;
-  background-color: #000;
+  background-color: #333;
   display: flex;
   font-size: 12px;
   max-height: 35px;
@@ -653,11 +663,15 @@ blockquote span {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-      box-shadow: 0 0 25px 20px white inset;
 
 
 }
 
+.clsShadow
+{
+  box-shadow: 0 0px 20px 20px rgb(255, 255, 255) inset;
+
+}
 
 /*New blob changes*/
 
@@ -695,10 +709,10 @@ blockquote span {
 	height: 200px;
 	width: 200px;
 	left: -200px;
-	top: -150px;
+	top: -10px;
 	transform: rotate(-180deg);
   z-index: -999;
-  animation: transform 10s ease-in-out infinite both alternate, movement_two 10s ease-in-out infinite both;
+  animation: transform 10s ease-in-out infinite both , movement_two 10s ease-in-out infinite both;
 }
 
 .shape-blob.two{

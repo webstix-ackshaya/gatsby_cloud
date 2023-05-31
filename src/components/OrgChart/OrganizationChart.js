@@ -18,14 +18,14 @@ export default function OrganizationChart() {
       <div className="flex items-center justify-center pb-[70px]">
         <div>
           <Link to="/about-us">
-            <button class="bg-[#fff] mt-4 rounded-md mr-6 hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-2 px-6 border border-black">
+            <button class="bg-[#fff] mt-4 rounded-md mr-6 hover:bg-[#333] text-[#333] font-semibold hover:text-[#fff] py-[0.5rem] px-[1.2rem] text-[14px]  border border-black">
               About Us
             </button>
           </Link>
         </div>
         <div>
           <Link to="/careers">
-            <button class="bg-[#fff] mt-4 rounded-md hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-2 px-6 border border-black">
+            <button class="bg-[#fff] mt-4 rounded-md hover:bg-[#333] text-[#333] font-semibold hover:text-[#fff] py-[0.5rem] px-[1.2rem] text-[14px]  border border-black">
               Join Us
             </button>
           </Link>

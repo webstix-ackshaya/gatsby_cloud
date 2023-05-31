@@ -20,12 +20,12 @@ export default function ContactUs() {
         <div class="flex flex-wrap pr-[0px]">
 
           <div class="grow-0 shrink-0 basis-auto mb-6 mt-20 md:mb-0 w-full  px-3 lg:px-6">
-            <h2 class="text-3xl font-bold mb-8 text-[#000] text-[36px] capitalize">
+            <h2 class="text-3xl font-bold mb-8 text-[#333] text-[36px] capitalize">
               {title}
               
             </h2>
             <div class="clsAddressSection block md:flex md:justify-between ">
-            <div class="flex items-start rounded-xl bg-white p-4 shadow-lg mr-[2%]  md:w-[48%] clsFirstAddress">
+            <div class="flex items-start rounded-xl bg-white p-4 shadow-lg  md:w-[48%] clsSecondAddress">
               <div class="flex h-10 w-10 items-center justify-center rounded-full bg-[#a31e22]">
                 <span className="text-[22px] text-[white]">
                   <HiOutlineOfficeBuilding />
@@ -67,19 +67,20 @@ export default function ContactUs() {
             </div>
 
 
-
-            <div class="flex justify-center items-center rounded-xl bg-white p-4 shadow-lg  md:w-[100%] mt-4">
+            <div class="flex justify-start  items-center rounded-xl  p-4 bg-[white]   md:w-[100%] mt-4">
               {/* <div class="flex h-10 w-10 items-center justify-center rounded-full bg-[#a31e22]">
                 <span className="text-[24px] text-[white]">
                   <HiMail />
                 </span>
               </div> */}
 
-              <div class="ml-4 flex justify-center items-center ">
+              <div class="flex">
+              <div class=" text-[20px] text-[#333] text-left font-bold">Reach us at: </div>
+              <div class="pl-[0.5rem]">
                 <a
-                  class=" pl-1 text-[20px] text-[#a51720] text-center font-bold"  
+                  class=" text-[20px] text-[#a51720] text-left font-bold"  
                   dangerouslySetInnerHTML={{ __html: Mail }}
-                ></a>
+                ></a></div>
               </div>
             </div>
           </div>

@@ -29,12 +29,11 @@ export default function index() {
         <div clasName="blobs">
           <div class="shape-blob"></div>
 	        <div class="shape-blob one"></div>
-	        <div class="shape-blob two"></div>
           <div class="shape-blob three"></div>
         </div>
        
 
-        <div class="clsHomeGallery" style={{
+        <div class="clsHomeGallery clsShadow" style={{
             backgroundImage: `url(${homegallerybg})`,
           }}>
         <Homegallery />
