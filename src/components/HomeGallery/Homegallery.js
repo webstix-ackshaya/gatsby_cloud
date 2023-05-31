@@ -39,7 +39,7 @@ export default function Homegallery() {
                     </div>
                   </div>
 
-                  <div className="galleryWrap clsHomeGallery container mx-auto pt-2 w-[62%] mt-[100px] pl-[20px]">
+                  <div className="galleryWrap clsHomeGallery container mx-auto pt-2 w-[65%] mt-[100px] pl-[20px]">
                     {slice &&
                       slice.map((slide, index) => {
                         return (

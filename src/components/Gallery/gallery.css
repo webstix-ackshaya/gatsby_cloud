@@ -106,7 +106,7 @@ background-color: #a31e22 !important;
 }
 .clsHomeGallery .single img {
   height: 155px !important;
-    width: 246px;
+    width: 256px;
     padding: 4px;
 }
 .clsHomeGallery {
@@ -116,4 +116,7 @@ background-color: #a31e22 !important;
 }
 .galleryWrap::-webkit-scrollbar {
   display: none;
+}
+.clsHomeGallery .galleryWrap .single{
+  padding-bottom: 3px;
 }
