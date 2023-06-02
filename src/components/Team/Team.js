@@ -12,7 +12,7 @@ export const Team = () => {
   const cat = data.allWpCategory.nodes
 
   return (
-    <div class="max-w-[85rem] mx-auto  lg:px-6 flex lg:mb-[100px] md:mb-[100px]  clsteamContainer">
+    <div class="max-w-[85rem] mx-auto  lg:px-6 flex lg:pb-[100px] md:pb-[100px]  clsteamContainer">
       <div class="mb-10 md:mb-16  max-w-[32%] pr-[75px] fixed mt-[7.5rem] clsteamContent z-10">
         <h2 class="text-3xl font-bold mb-4 text-[#333] text-[40px] capitalize pt-4">
           {title}

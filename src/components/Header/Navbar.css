@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  height: 80px;
+  height: 110px;
   width: 100%;
   top: 0;
   left: 0;
@@ -141,5 +141,5 @@ padding-top: 15px;
 
 .navlogo
 {
-  margin-top: 5px;
+  margin-top: 20px;
 }

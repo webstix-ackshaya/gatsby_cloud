@@ -8,7 +8,6 @@ import ContactUs from "../components/ContactUs/ContactUs"
 import Footer from "../components/Footer/Footer.js"
 import Homegallery from "../components/HomeGallery/Homegallery.js"
 import contactbg from "../images/polyg.svg"
-import homegallerybg from "../images/f.jpg"
 
 export default function index() {
   return (
@@ -33,9 +32,7 @@ export default function index() {
         </div>
        
 
-        <div class="clsHomeGallery clsShadow" style={{
-            backgroundImage: `url(${homegallerybg})`,
-          }}>
+        <div class="clsHomeGallery">
         <Homegallery />
         </div>
 

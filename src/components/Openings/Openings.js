@@ -15,7 +15,7 @@ const Openings = () => {
         className="px-4 py-16 mx-auto max-w-[85rem] lg:px-8 lg:py-20 flex  clsOpeningContainer"
         id="team"
       >
-        <div className=" w-[30%]  lg:mt-[90px] fixed clsOpeningContent">
+        <div className=" w-[30%]  lg:mt-[30px] fixed clsOpeningContent">
           <h1 className="text-[40px]  text-[#333] font-bold">{title}</h1>
           <p
             className="leading-7 lg:mt-[1px] text-[17px] pt-4"
@@ -40,7 +40,7 @@ const Openings = () => {
           </div>
         </div>
 
-        <div className="grid gap-10 ml-auto sm:grid-cols-2 lg:grid-cols-2 lg:w-[55%] h-fit lg:mt-[95px] clsScroll  scroll clsOpeningImageContainer">
+        <div className="grid gap-10 ml-auto sm:grid-cols-2 lg:grid-cols-2 lg:w-[55%] h-fit lg:mt-[50px] clsScroll  scroll clsOpeningImageContainer">
           {data.allWpOpenings.nodes.map((list, index) => {
             return (
               <div className="rounded overflow-hidden max-h-[500px] clsOpeningImageContainerdiv">

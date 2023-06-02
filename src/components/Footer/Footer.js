@@ -2,7 +2,9 @@ import React from "react"
 
 export default function Footer() {
   return (
-    <footer class="footer footer-center bottom-0 text-[12px] w-full p-4 bg-black text-gray-50 z-40">
+    <footer class="footer footer-center text-[12px] w-full p-4 bg-black text-gray-50 z-40">
+        {/* <footer class="footer footer-center bottom-0 text-[12px] w-full p-4 bg-black text-gray-50 z-40"> */}
+
       <div class="text-center">
         <p>
           © {new Date().getFullYear()} All Rights Reserved. - &nbsp;

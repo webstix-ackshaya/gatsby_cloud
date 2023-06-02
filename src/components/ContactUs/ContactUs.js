@@ -16,7 +16,9 @@ export default function ContactUs() {
 
   return (
     <>
-      <section class="max-w-[85rem] mx-auto  lg:px-2 mb-[0rem] clsContact  lg:mt-[10px] min-h-[530px]">
+
+      <div class="max-w-[85rem] mx-auto  lg:px-2 pb-[100px] clsContact  lg:mt-[10px] min-h-[530px]">
+      
         <div class="flex flex-wrap pr-[0px] ">
 
           <div class="grow-0 shrink-0 basis-auto mb-6 mt-[1rem] md:mb-0 w-full  px-3 lg:px-6">
@@ -67,7 +69,7 @@ export default function ContactUs() {
             </div>
 
 
-            <div class="flex justify-start  items-center rounded-xl  p-4 bg-[white]   md:w-[100%] mt-4">
+            <div class="flex justify-start  items-center rounded-xl  p-4   md:w-[100%] mt-4">
               {/* <div class="flex h-10 w-10 items-center justify-center rounded-full bg-[#a31e22]">
                 <span className="text-[24px] text-[white]">
                   <HiMail />
@@ -99,8 +101,11 @@ export default function ContactUs() {
              <img src={image}/>
 </div> */}
 
-        </div>
-      </section>
+</div>
+
+        
+      </div>
+
     </>
   )
 }

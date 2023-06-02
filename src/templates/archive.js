@@ -17,7 +17,7 @@ const archiveTemplate = ({
           {wpPage.title}
         </h2>
         <p
-          class="max-w-screen-md mx-auto text-left md:text-lg"
+          class="max-w-screen-md mx-auto pr-[2rem] mt-[4px] text-left md:text-lg"
           dangerouslySetInnerHTML={{ __html: wpPage.content }}
         />
         <div className="mt-[20px] ">
@@ -25,14 +25,14 @@ const archiveTemplate = ({
         </div>
         <div>
           <Link to="/organization">
-            <button class="bg-[#fff] mt-2 hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-2 px-6 border border-black">
+            <button class="bg-[#fff] mt-2 rounded-md hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-2 px-6 border border-black">
               Organization Chart
             </button>
           </Link>
         </div>
         <div>
           <Link to="/careers">
-            <button class="bg-[#fff] mt-7 hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-2 px-6 border border-black">
+            <button class="bg-[#fff] mt-7 rounded-md hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-2 px-6 border border-black">
               Join us
             </button>
           </Link>

@@ -15,7 +15,7 @@ export default function OrganizationChart() {
           className=" w-full object-fill pt-[100px] pb-[10px]"
         />
       </div>
-      <div className="flex items-center justify-center pb-[70px]">
+      <div className="flex items-center justify-center pb-[130px]">
         <div>
           <Link to="/about-us">
             <button class="bg-[#fff] mt-4 rounded-md mr-6 hover:bg-[#333] text-[#333] font-semibold hover:text-[#fff] py-[0.5rem] px-[1.2rem] text-[14px]  border border-black">
@@ -25,7 +25,7 @@ export default function OrganizationChart() {
         </div>
         <div>
           <Link to="/careers">
-            <button class="bg-[#fff] mt-4 rounded-md hover:bg-[#333] text-[#333] font-semibold hover:text-[#fff] py-[0.5rem] px-[1.2rem] text-[14px]  border border-black">
+            <button class="bg-[#fff] mt-4 rounded-md hover:bg-[#333] text-[#333] font-semibold hover:text-[#fff] py-[0.5rem] px-[1.2rem] text-[14px]   border border-black">
               Join Us
             </button>
           </Link>
