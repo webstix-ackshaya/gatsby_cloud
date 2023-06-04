@@ -15,6 +15,7 @@ body{
   min-height: 100vh;
 
 }
+
 .react-read-more-read-less {
   font-weight: 700;
   color: #a51720;
@@ -742,4 +743,20 @@ blockquote span {
   position: absolute;
   bottom: 0;
 }
+
+
+
+.clsContactBody
+{
+background-repeat: no-repeat;
+background-position: bottom 48px center;
+background-size: contain;
+}
+
+.clsFirstAddress{
+ margin-right: 50px; 
+}
+.clsSecondAddress{
+  margin-left: 50px; 
+ } 
 

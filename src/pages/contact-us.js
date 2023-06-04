@@ -3,7 +3,7 @@ import Header from "../components/Header/Header"
 import ContactUs from "../components/ContactUs/ContactUs"
 import Footer from "../components/Footer/Footer"
 import { Helmet } from "react-helmet"
-import contactbg from "../images/chennai.svg"
+import contactbg from "../images/chennaibg.png"
 
 
 export default function contact() {
@@ -16,17 +16,16 @@ export default function contact() {
           <link rel="canonical" href="https://wdpl.gatsbyjs.io/" />
         </Helmet>
       </div>
-      <Header />
-      <div id="Maincontact" class="clsMainContactbg" style={{backgroundImage: `url(${contactbg})`,}}> 
 
+      <Header />
+<body class="clsContactBody" style={{backgroundImage: `url(${contactbg})`,}}>
       <div className="clsContactSinglePage">
 
         <ContactUs />
 
-      </div>
 </div>
               <Footer />
-
+              </body>
     </>
   )
 }

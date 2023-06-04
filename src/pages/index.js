@@ -7,7 +7,7 @@ import AboutUsTwo from "../components/AboutUs/AboutTwo"
 import ContactUs from "../components/ContactUs/ContactUs"
 import Footer from "../components/Footer/Footer.js"
 import Homegallery from "../components/HomeGallery/Homegallery.js"
-import contactbg from "../images/polyg.svg"
+import contactbg from "../images/chennaibg.png"
 
 export default function index() {
   return (
@@ -37,11 +37,10 @@ export default function index() {
         </div>
 
 
-        <div id="clshomecontact" class="clsContactbg" style={{
-            backgroundImage: `url(${contactbg})`,
-          }}>          <ContactUs />
-
-          </div>
+        <div class="clsContactbg"  >   
+              <div class="clshomecontact pb-[100px]" style={{backgroundImage: `url(${contactbg})`,backgroundSize:`contain`, backgroundRepeat: `no-repeat`,backgroundPosition: `bottom 49px center`,}}>
+               <ContactUs />
+          </div></div>
         
       </div>
       <Footer />
