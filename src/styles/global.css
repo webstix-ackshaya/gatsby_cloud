@@ -760,3 +760,29 @@ background-size: contain;
   margin-left: 50px; 
  } 
 
+ .aboutContainer {
+  align-items: center;
+  justify-content: center;
+}
+
+
+.clsOneTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+}
+.clsTwoTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+}
+.clsThreeTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+}
+.clsFourTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #A31E22;
+}
