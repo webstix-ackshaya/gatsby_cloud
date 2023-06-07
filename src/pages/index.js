@@ -38,7 +38,7 @@ export default function index() {
 
 
         <div class="clsContactbg"  >   
-              <div class="clshomecontact pb-[100px]" style={{backgroundImage: `url(${contactbg})`,backgroundSize:`contain`, backgroundRepeat: `no-repeat`,backgroundPosition: `bottom 49px center`,}}>
+              <div class="clshomecontact pb-[100px]" style={{backgroundImage: `url(${contactbg})`,backgroundSize:`contain`, backgroundRepeat: `no-repeat`,backgroundPosition: `bottom 0px center`,}}>
                <ContactUs />
           </div></div>
         
