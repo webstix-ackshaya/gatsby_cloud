@@ -24,7 +24,9 @@ export default function contact() {
         <ContactUs />
 
 </div>
+<div class="contactfooter">
               <Footer />
+              </div>
               </body>
     </>
   )
