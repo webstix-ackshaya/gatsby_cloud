@@ -9,7 +9,6 @@ export default function AboutOne() {
   const title = data.wpPage.title
   // const Content = data.wpPage.blocks[2].originalContent
   const Content = data.wpPage.content
-  const Image = data.wpPage.featuredImage.node.localFile.publicURL
 
   return (
 
@@ -22,22 +21,11 @@ export default function AboutOne() {
         ></h2>
 
         <div class="clsAboutContent ">
-        <img
-            src={Image}
-            className="w-full object-cover min-h-[600px] pl-[40px]"
-            alt="about-us"
-          /> 
+
           <p
-            className="leading-7 mt-[1rem] text-[17px] xl:w-[82%] "
+            className="leading-7 mt-[1rem] text-[17px] "
             dangerouslySetInnerHTML={{ __html: Content }}
           >
-            {/* <ReactReadMoreReadLess
-                    charLimit={340}
-                    readMoreText={"Read More "}
-                    readLessText={"Read Less "}
-                  >
-                    {data.wpPage.aboutus.aboutus}
-                  </ReactReadMoreReadLess> */}
           </p>
         </div>
         <Link to="/our-team">
