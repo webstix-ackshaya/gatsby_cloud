@@ -274,8 +274,74 @@ iframe {
     max-height: 550px;
   }
 }
+@media screen and (min-width: 500px) and (max-width:768px) {
+ 
+ 
+
+
+}
+@media screen and (max-width: 639px) {
+  .clsAddressSection {
+    display: block !important;
+    justify-content:space-around;
+  }
+  
+  .clsFirstAddress, .clsSecondAddress{
+    width: auto !important;
+  }
+  .clsSecondAddress{
+    margin-left: 0 !important;
+
+  }
+
+}
 
 @media screen and (max-width: 768px) {
+  .clsteambtnwrapper {
+    padding-bottom: 30px;
+  }
+  .clsContactSinglePage .clsContact  {
+    margin-top: 30px;
+    min-height: auto;
+  }
+  .clsOpeningContainer h1{
+    font-size:35px;
+  }
+  
+  .clsHomeGallery .galleryWrap {
+    padding-bottom: 0px ;
+    margin-bottom: 30px;
+  }
+  .clshomecontact h2{
+    font-size: 30px;
+  }
+  .clshomecontact {
+    padding-bottom: 40px;
+  }
+  .clshomecontact .clsContact  {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: auto;
+  } 
+
+  /* .clsSecondAddress{
+    margin-left: 0px !important;
+  }
+  */
+  .reachustxt{
+    font-size:20px;
+
+  }
+  
+
+  .blobs{
+    display: none;
+  }
+  .clsHomeBannertitle {
+    padding-top: 20px;
+    font-size:30px;
+    padding-bottom: 10px;
+  }
   .clsteambtnwrapper {
     padding-bottom: 30px;
   }
@@ -336,6 +402,7 @@ iframe {
   }
   .clsFirstAddress, .clsSecondAddress{
     width: 45%;
+    /* width: auto; */
   }
 }
 @media screen and (max-width: 768px) {
@@ -348,7 +415,9 @@ iframe {
   /**** OUR TEAM *****/
   .clsteamContainer {
     display: block;
-    padding: 0% 20px;
+    /* padding: 0% 20px; */
+    padding-bottom: 50px;
+    
   }
   .clsteamContent {
     max-width: 100%;
@@ -359,7 +428,10 @@ iframe {
   }
   .clsOpeningContainer {
     display: block;
+    padding-bottom: 50px;
+    padding-top: 20px;
   }
+  
   .clsOpeningContent {
     width: 100%;
     position: relative;
@@ -375,6 +447,7 @@ iframe {
   }
   .clsHomeGallery {
     margin-top: 5px !important;
+    margin-bottom: 20px !important;
   }
 /*   .clsContact {
     margin-top: 250px;
@@ -401,7 +474,7 @@ iframe {
   .clsAboutContentdiv {
     width: 100%;
   }
-/*   .clsContactSinglePage .clsContact {
+  /* .clsContactSinglePage .clsContact {
     padding-top: 130px;
   } */
   .clsAboutContent img {
@@ -414,6 +487,19 @@ iframe {
 }
 
 @media screen and (min-width: 768px) {
+  .clsHomeGallery .galleryWrap {
+    padding-bottom: 0 ;
+    margin-bottom: 0;
+  }
+  .clshomecontact .clsContact  {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: auto;
+  } 
+  .clsFirstAddress, .clsSecondAddress{
+    width: auto !important;
+  }
+
   .clsContact {
     margin-top: 250px;
   }
@@ -430,6 +516,7 @@ iframe {
 }
 
 @media screen and (min-width: 426px) {
+ 
   .clsHomeBannertitle {
     font-size: 30px;
     padding-bottom: 10px;
@@ -442,6 +529,15 @@ iframe {
 }
 
 @media screen and (max-width: 426px) {
+  .clshomecontact .reachustxt{
+    font-style: 18px;
+
+  }
+  .clshomecontact .clsContact  {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: auto;
+  } 
   .clsHomeBanner{
     margin-top: 110px;
   }
@@ -457,7 +553,7 @@ iframe {
     max-width: 300px !important;
   }
   .clsteamImage {
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
   }
   .clsteamImage .clsTeamImagediv {
     height: 215px !important;
@@ -469,7 +565,7 @@ iframe {
     font-size: 15px;
   }
   .clsteamContainer {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .clsAboutContent img {
     display: none;
@@ -497,13 +593,12 @@ margin-top: 100px;
 }
 
 }
-@media screen and (min-width: 394px) {
+/* @media screen and (min-width: 394px) {
 
 
 .clsContactBody
 {
   background-size: contain !important; 
-  bottom: 17px !important;
 }
 .clsFirstAddress
 {
@@ -516,10 +611,7 @@ margin-top: 100px;
   width: 325px !important;
   margin-left: 0px !important;
 }
-
-
-
-}
+} */
 
 .sidekick {
   position: relative;
@@ -653,13 +745,20 @@ blockquote span {
 }
 @media screen and (max-width:557px){
 .clsHomeGalleryMain {
-  padding-bottom:450px !important;
+  /* padding-bottom:450px !important; */
 }
 }
-@media screen and (min-width:769px) and (max-width:861px) {
+/* @media screen and (min-width:769px) and (max-width:861px) {
   .clsHomeGalleryMain {
     padding-bottom:480px !important;
   }
+} */
+@media screen and (min-width:1023px) {
+  .clsOpeningContainer{
+    padding-bottom: 100px;
+  }
+
+
 }
 @media screen and (min-width:862px) and (max-width:1023px) {
   #clshomecontact .clsContact {
@@ -675,6 +774,38 @@ blockquote span {
 }
 
   @media screen and (min-width:769px) and (max-width:1023px) {
+    .clsContactSinglePage .clsContact  {
+      margin-top: 30px;
+      min-height: auto;
+    }
+    .clsOpeningContainer{
+      margin-top: 40px;
+      padding-bottom: 100px;
+
+    }
+    .clsHomeGallery .galleryWrap {
+      padding-bottom: 20px ;
+      margin-bottom: 0;
+    }
+    .clshomecontact  .clsContact{
+      padding-bottom: 0 !important;
+    }
+    .clsHomeBannertitle{
+      padding-top: 20px;
+    }
+    .clsHomeGallery .galleryWrap{
+      margin-bottom: 0;
+    } 
+    .clsHomeGalleryMain{
+      padding-bottom: 0;
+
+    }
+    .clshomecontact .clsContact {
+      margin-bottom: 0 !important;
+      padding-bottom: 0 !important;
+      min-height: auto;
+      margin-top: 0;
+    }
 #clshomecontact .clsContact {
     margin-top: 65px !important;
 }
@@ -810,4 +941,12 @@ background-size: contain;
   display: flex;
 
 }
+
+/* newcode 11-08*/
+.clscareer .footer{
+  position: fixed;
+  bottom: 0 !important;
+}
+
+
 

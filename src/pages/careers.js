@@ -19,7 +19,9 @@ export default function careers() {
 
       <Header />
       <Openings />
-      <Footer />
+      <div class="clscareer">
+      <Footer  />
+      </div>
     </>
   )
 }

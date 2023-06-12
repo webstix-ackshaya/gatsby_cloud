@@ -10,10 +10,9 @@
   margin: 0 auto;
   margin-bottom: 80px;
   padding-bottom: 25px;
-  max-height: 508px;
+  /* max-height: 508px; */
   overflow-y: scroll;
 }
-
 
 .galleryWrap .single {
   /* width: 200px; */
@@ -121,14 +120,3 @@ background-color: #a31e22 !important;
 .clsHomeGallery .galleryWrap .single{
   padding-bottom: 3px;
 }
-
-@media screen and (max-width: 425px) {
-
-
-  .galleryWrap
-  {
-    justify-content: center;
-  
-  }
-  
-  }

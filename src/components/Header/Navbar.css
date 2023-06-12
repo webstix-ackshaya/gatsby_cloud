@@ -107,7 +107,7 @@ padding-top: 15px;
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 80px;
+    top: 90px;
     flex-direction: column;
     background-color: #fff;
     width: 100%;

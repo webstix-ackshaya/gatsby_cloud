@@ -1,4 +1,4 @@
- import React, { useState } from "react"
+import React, { useState } from "react"
 import Footer from "../components/Footer/Footer"
 import { Helmet } from "react-helmet"
 
@@ -36,7 +36,7 @@ export default function Gallery() {
 
       <Header />
 
-      <div className=" max-w-[85rem] mx-auto  lg:px-7 min-h-[750px] flex clsGalleryContainer ">
+      <div className=" max-w-[85rem] mx-auto md:px-6  lg:px-7 min-h-[750px] flex clsGalleryContainer ">
         <div className="w-[32%] mb-10 md:mb-16  pr-[35px] mt-[7.5rem] clsGalleryContentdiv">
           <h2
             class="text-3xl font-bold mb-5 text-[#333] text-[40px] capitalize pt-4"
@@ -54,7 +54,7 @@ export default function Gallery() {
         </div>
         <div className="w-[70%] clsGalleryImages">
           {" "}
-          <div className="lg:mt-[120px] md:mt-[60px] max-w-[85rem] mx-auto  flex justify-center clsTabs">
+          <div className="md:mt-[120px]  max-w-[85rem] mx-auto  flex justify-center clsTabs">
             <Tabs
               value={value}
               onChange={handleTabs}

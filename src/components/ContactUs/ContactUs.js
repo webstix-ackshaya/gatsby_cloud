@@ -17,7 +17,7 @@ export default function ContactUs() {
   return (
     <>
 
-      <div class="max-w-[85rem] mx-auto  sm:px-2 pb-[100px] md:px-2 pb-[100px] lg:px-2 pb-[100px] clsContact  lg:mt-[30px] min-h-[530px]">
+      <div class="max-w-[85rem] mx-auto  sm:px-2  md:px-2  lg:px-2 pb-[100px] clsContact  lg:mt-[30px] min-h-[530px]">
       
         <div class="flex flex-wrap pr-[0px]  ">
 
@@ -26,8 +26,8 @@ export default function ContactUs() {
               {title}
               
             </h2>
-            <div class="clsAddressSection block md:flex md:justify-center ">
-            <div class="flex items-start rounded-xl bg-white p-4 shadow-lg  w-[30%] clsFirstAddress">
+            <div class="clsAddressSection sm:flex flex-wrap  block md:flex md:justify-center ">
+            <div class="flex items-start rounded-xl bg-white p-4 shadow-lg w-auto md:w-[30%] clsFirstAddress">
         
 
               <div class="ml-4">
@@ -44,7 +44,7 @@ export default function ContactUs() {
 
 <br/>
 
-            <div class="flex items-start rounded-xl bg-white p-4 shadow-lg  w-[30%] clsSecondAddress">
+            <div class="flex items-start rounded-xl bg-white p-4 shadow-lg w-auto md:w-[30%] clsSecondAddress">
         
 
               <div class="ml-4">
@@ -69,10 +69,10 @@ export default function ContactUs() {
               </div> */}
 
               <div class="flex">
-              <div class=" text-[26px] text-[#333]  font-bold">Reach us at: </div>
+              <div class=" reachustxt text-[26px] text-[#333]  font-bold">Reach us at: </div>
               <div class="pl-[0.5rem]">
                 <a
-                  class=" text-[26px] text-[#a51720] text-left font-bold"  
+                  class="reachustxt text-[26px] text-[#a51720] text-left font-bold"  
                   dangerouslySetInnerHTML={{ __html: Mail }}
                 ></a></div>
               </div>

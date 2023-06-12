@@ -15,10 +15,10 @@ const Openings = () => {
         className="px-4 py-16 mx-auto max-w-[85rem] lg:px-8 lg:py-20 flex  clsOpeningContainer"
         id="team"
       >
-        <div className=" w-[30%]  lg:mt-[30px] fixed clsOpeningContent">
-          <h1 className="text-[40px]  text-[#333] font-bold">{title}</h1>
+        <div className=" w-[30%] mb-[50px]  lg:mt-[30px] fixed clsOpeningContent">
+          <h1 className=" text-[35px] md:text-[40px]  text-[#333] font-bold">{title}</h1>
           <p
-            className="leading-7 lg:mt-[1px] text-[17px] pt-4"
+            className="leading-7 lg:mt-[1px] text-[17px] pt-3"
             dangerouslySetInnerHTML={{ __html: Content }}
           />
 
@@ -43,7 +43,7 @@ const Openings = () => {
         <div className="grid gap-10 ml-auto sm:grid-cols-2 lg:grid-cols-2 lg:w-[55%] h-fit lg:mt-[50px] clsScroll  scroll clsOpeningImageContainer">
           {data.allWpOpenings.nodes.map((list, index) => {
             return (
-              <div className="rounded overflow-hidden max-h-[500px] clsOpeningImageContainerdiv">
+              <div className="rounded overflow-hidden max-h-[580px] clsOpeningImageContainerdiv">
                 <div className="relative mb-4 rounded  overflow-hidden lg:pb-36 bg-[#f5f5f5] clsImgheight">
                   <img
                     className="absolute object-contain object-bottom w-[100%] h-full rounded"

@@ -13,10 +13,10 @@ export const Team = () => {
 
   return (
     <div class="max-w-[85rem] mx-auto  lg:px-6 flex lg:pb-[100px] md:pb-[100px]  clsteamContainer">
-      <div class="mb-10 md:mb-16  max-w-[32%] pr-[75px] fixed mt-[7.5rem] clsteamContent z-10">
-        <h2 class="text-3xl font-bold mb-4 text-[#333] text-[40px] capitalize pt-4">
+      <div class="mb-8 md:mb-16  max-w-[32%] pr-[75px] fixed mt-[7.5rem] clsteamContent z-10">
+        <h1 class=" text-3xl font-bold mb-4 text-[#333] md:text-[35px] capitalize pt-4">
           {title}
-        </h2>
+        </h1>
 
         <p
           class="max-w-screen-md mx-auto mt-[4px] text-left md:text-lg"
@@ -44,22 +44,29 @@ export const Team = () => {
           </div>
         </div>
         <div>
+          
+        </div>
+        <div className="flex md:mr-3 lg:justify-start items-center flex-wrap">
+        <div className="mr-3 ">
           <Link to="/organization">
-            <button class="bg-[#fff] mt-8 hover:bg-[#333] text-[#333] rounded-md font-semibold hover:text-[#fff] py-[0.5rem] px-[1.2rem] text-[14px]  border border-black">
+            <button class="bg-[#fff] mt-6 lg:mt-8 hover:bg-[#333] text-[#333] rounded-md font-semibold hover:text-[#fff] py-[0.5rem] px-[1.2rem] text-[14px]  border border-black">
               Organization Chart
             </button>
           </Link>
         </div>
-        <div>
+        <div className="mt-[4px]">
           <Link to="/careers">
-            <button class="bg-[#fff] mt-7 hover:bg-[#333] text-[#333] rounded-md font-semibold hover:text-[#fff] py-[0.5rem] px-[1.2rem] text-[14px]  border border-black">
+            <button class="bg-[#fff] mt-5 lg:mt-7 hover:bg-[#333] text-[#333] rounded-md font-semibold hover:text-[#fff] py-[0.5rem] px-[1.2rem] text-[14px]  border border-black">
               Join us
             </button>
           </Link>
         </div>
+
+        </div>
+      
       </div>
 
-      <div class="grid gap-4 md:grid-cols-3 w-[62%] ml-auto h-fit lg:mt-[7.5rem] md:mt-[4rem] clsteamImage">
+      <div class="grid gap-4 grid-cols-1 md:grid-cols-3 w-[62%] ml-auto h-fit lg:mt-[7.5rem] md:mt-[7rem] clsteamImage">
         {team.map(t => (
           <div class="p-4 shadow-lg max-h-[460px]">
             <div class="h-[250px] mb-2 overflow-hidden rounded-lg bg-[#f5f5f5]  md:h-[250px] clsTeamImagediv">
